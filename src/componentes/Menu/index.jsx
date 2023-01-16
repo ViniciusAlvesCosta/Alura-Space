@@ -12,23 +12,23 @@ export default function Menu() {
         <ul className={styles.menu__lista}>
             <li className={styles.menu__item}>
                 <img src={home} alt='icone de casinha' />
-                <a href="#">Início</a>
+                <a href="/">Início</a>
             </li>
             <li className={styles.menu__item}>
                 <img src={curtidas} alt='icone da coração' />
-                <a href="#">Mais curtidas</a>
+                <a href="/">Mais curtidas</a>
             </li>
             <li className={styles.menu__item}>
                 <img src={vistas} alt='icone de olhinho' />
-                <a href="#">Mais vistas</a>
+                <a href="/">Mais vistas</a>
             </li>
             <li className={styles.menu__item}>
                 <img src={inativo} alt='icone inativo' />
-                <a href="#">Novas</a>
+                <a href="/">Novas</a>
             </li>
             <li className={styles.menu__item}>
                 <img src={surpreenda} alt='suprise motherfucker' />
-                <a href="#">Surpreeenda-me</a>
+                <a href="/">Surpreeenda-me</a>
             </li>
         </ul>
     </nav>

@@ -1,0 +1,23 @@
+.rodape {
+  background-color: #04244f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  bottom: 0;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.rodape__icones {
+  cursor: pointer;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.rodape p {
+  color: #d9d9d9;
+  font-family: "GrandhiSansRegular";
+  font-weight: 300;
+}/*# sourceMappingURL=rodape.module.css.map */
